@@ -107,6 +107,8 @@ function buildCharts(sample) {
     // Deliverable 1: 9. Create the layout for the bar chart. 
     var barLayout = {
       title: "Top 10 Bacterial Cultures Found",
+      width: 400, 
+      height: 385
     };
 
     // Deliverable 1: 10. Use Plotly to plot the data with the layout. 
@@ -155,7 +157,7 @@ function buildCharts(sample) {
     // Deliverable 3: 5. Create the layout for the gauge chart.
     var gaugeLayout = {
       width: 400,
-      height: 400,
+      height: 385,
       paper_bgcolor: "white",
       font: {
         color: "black",
